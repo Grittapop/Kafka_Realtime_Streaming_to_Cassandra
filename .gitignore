@@ -1,2 +1,75 @@
-.env
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# CSV files
+*.csv
+
+# Cassandra data files
+mnt/cassandra/data/system/*
+mnt/cassandra/data/stella/*
+
+# Docker
+docker-compose.override.yml
+Dockerfile
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*.so
+*.dylib
+*.dll
+
+# Unit test / coverage reports
+.coverage
+.tox/
+.cache
+nosetests.xml
+coverage.xml
+
+# Jupyter Notebook local metadata
+.ipynb_checkpoints
+
+# MacOS files
+.DS_Store
+
+# Logs and temporary files
 *.log
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Ignore all local environment settings
+.idea/
+.vscode/
+
+# Ignore Python package files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.manifest
+.installed.cfg
+*.egg-info/
+
+# Ignore wheel files
+*.whl

@@ -11,10 +11,6 @@ __pycache__/
 mnt/cassandra/data/system/*
 mnt/cassandra/data/stella/*
 
-# Docker
-docker-compose.override.yml
-Dockerfile
-
 # Virtual environments
 env/
 venv/

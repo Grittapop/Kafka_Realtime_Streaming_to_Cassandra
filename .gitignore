@@ -7,9 +7,6 @@ __pycache__/
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# CSV files
-*.csv
-
 # Cassandra data files
 mnt/cassandra/data/system/*
 mnt/cassandra/data/stella/*
